@@ -61,6 +61,7 @@
 	}
 	#news .thumbnails .item-inner img {
 		width: 80%;
+		margin: 0 45px;
 		align-self: center;
 	}
 	#btn-news-prev, #btn-news-next {

@@ -53,6 +53,124 @@
 
 		</div>	
 
+		<div id="promocoes" class="container">
+		
+		<div class="row">
+			<div class="col-md-2">
+				
+				<div class="box-promocao box-1">
+					<p>escolha por desconto</p>
+				</div>
+
+			</div>
+			<div class="col-md-10">
+				
+				<div class="row-fluid">
+					<div class="col-md-3">
+						<div class="box-promocao">
+							<div class="text-ate">até</div>
+							<div class="text-numero">40</div>
+							<div class="text-porcento">%</div>
+							<div class="text-off">off</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="box-promocao">
+							<div class="text-ate">até</div>
+							<div class="text-numero">60</div>
+							<div class="text-porcento">%</div>
+							<div class="text-off">off</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="box-promocao">
+							<div class="text-ate">até</div>
+							<div class="text-numero">80</div>
+							<div class="text-porcento">%</div>
+							<div class="text-off">off</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="box-promocao">
+							<div class="text-ate">até</div>
+							<div class="text-numero">85</div>
+							<div class="text-porcento">%</div>
+							<div class="text-off">off</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+	<div id="mais-buscados" class="container">
+		
+		<div class="row text-center tittle-default-roxo">
+			<h2>os mais buscados</h2>
+			<hr>
+		</div>
+
+		<div class="row">
+			
+			<div class="col-md-3">
+				<div class="box-produto-info">
+					<a href="#">
+						<img src="img/produtos/panelas.png" alt="Panelas" class="produto-img">
+
+						<h3>Conjunto de Panelas Tramontina Versalhes Alumínio Antiaderente 5</h3>
+						<div class="estrelas" data-score="3"></div>
+						<div class="text-qtd-reviews text-arial-cinza">(300)</div>
+						<div class="text-valor text-roxo">R$ 109,90</div>
+						<div class="text-parcelado text-arial-cinza">10x de R$ 10,99 sem juros</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="box-produto-info">
+					<a href="#">
+						<img src="img/produtos/panelas.png" alt="Panelas" class="produto-img">
+
+						<h3>Conjunto de Panelas Tramontina Versalhes Alumínio Antiaderente 5</h3>
+						<div class="estrelas" data-score="5"></div>
+						<div class="text-qtd-reviews text-arial-cinza">(300)</div>
+						<div class="text-valor text-roxo">R$ 109,90</div>
+						<div class="text-parcelado text-arial-cinza">10x de R$ 10,99 sem juros</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="box-produto-info">
+					<a href="#">
+						<img src="img/produtos/panelas.png" alt="Panelas" class="produto-img">
+
+						<h3>Conjunto de Panelas Tramontina Versalhes Alumínio Antiaderente 5</h3>
+						<div class="estrelas" data-score="2.5"></div>
+						<div class="text-qtd-reviews text-arial-cinza">(300)</div>
+						<div class="text-valor text-roxo">R$ 109,90</div>
+						<div class="text-parcelado text-arial-cinza">10x de R$ 10,99 sem juros</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="box-produto-info">
+					<a href="#">
+						<img src="img/produtos/panelas.png" alt="Panelas" class="produto-img">
+
+						<h3>Conjunto de Panelas Tramontina Versalhes Alumínio Antiaderente 5</h3>
+						<div class="estrelas" data-score="5"></div>
+						<div class="text-qtd-reviews text-arial-cinza">(300)</div>
+						<div class="text-valor text-roxo">R$ 109,90</div>
+						<div class="text-parcelado text-arial-cinza">10x de R$ 10,99 sem juros</div>
+					</a>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
 	</section>
 
 <?php include_once("footer.php");?>	
@@ -79,6 +197,17 @@ $(function(){
   	$('#btn-destaque-next').on("click", function(){
 
   		owlDestaque.next();
+
+  	});
+
+  	$('.estrelas').each(function(){
+
+  		$(this).raty({
+	  		starHalf    : 'lib/raty/lib/images/star-half.png',                                // The name of the half star image.
+			starOff     : 'lib/raty/lib/images/star-off.png',                                 // Name of the star image off.
+			starOn      : 'lib/raty/lib/images/star-on.png',
+			score		: parseFloat($(this).data("score"))
+	  	});
 
   	});
 

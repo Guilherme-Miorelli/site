@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="lib/owl.carousel2/dist/assets/owl.carousel.min.css">
 		<link rel="stylesheet" href="lib/owl.carousel2/dist/assets/owl.theme.default.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="lib/raty/lib/jquery.raty.css">
 		<link rel="stylesheet" href="css/orlando.css">
 		<link rel="stylesheet" href="css/orlando-mobile.css">
 	</head>

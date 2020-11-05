@@ -417,64 +417,65 @@ video {
 #destaque-produtos .col-imagem {
 	text-align: center;
 }
-#destaque-produtos .col-descicao h2 {
+#destaque-produtos .col-descricao h2 {
 	font-family: arial;
 	font-size: 20px;
 	color: #666;
 	margin-bottom: 10px;
 }
-#destaque-produtos .col-descicao .box-valor {
+#destaque-produtos .col-descricao .box-valor {
 	width: 100%;
 	position: relative;
+
 }
-#destaque-produtos .col-descicao .box-valor .text-reais {
+#destaque-produtos .col-descricao .box-valor .text-reais {
 	font-size: 18px;
     font-weight: bold;
     position: absolute;
     top: 13px;
-    left: 26px;
+    left: 28px;
 }
-#destaque-produtos .col-descicao .box-valor .text-valor {
+#destaque-produtos .col-descricao .box-valor .text-valor {
 	font-size: 50px;
 	position: absolute;
     top: -17px;
     left: 54px;
 }
-#destaque-produtos .col-descicao .box-valor .text-valor-centavos {
+#destaque-produtos .col-descricao .box-valor .text-valor-centavos {
 	font-size: 30px;
-    position: absolute;
-    top: -6px;
-    left: 178px;
+	position: absolute;
+    top: -10px;
+    left: 182px;
 }
-#destaque-produtos .col-descicao .btn-comprar {
+#destaque-produtos .col-descricao .btn-comprar {
 	font-size: 26px;
 	padding: 10px 0;
 }
-#destaque-produtos .col-descicao .btn-comprar .fa {
+#destaque-produtos .col-descricao .btn-comprar .fa {
 	font-size: 34px;
 }
-#destaque-produtos .col-descicao .box-valor .text-parcelas {
+#destaque-produtos .col-descricao .text-parcelas {
 	margin-top: 20px;
 }
 #btn-destaque-prev {
-	position: absolute;
-	top: 140px;
-	left: 0;
-	background: none;
-	border: none;
-	font-size: 64px;
-	color: #2A2A2A;
-	outline: 0;
+    position: absolute;
+    top: 140px;
+    left: 0;
+    background: none;
+    border: none;
+    font-size: 64px;
+	color:#2A2A2A;
+	outline:0;
 }
 #btn-destaque-next {
-	position: absolute;
-	top: 140px;
-	right: 0;
-	background: none;
-	border: none;
-	font-size: 64px;
-	color: #2A2A2A;
-	outline: 0;
+    position: absolute;
+    top: 140px;
+    right: 0;
+    background: none;
+    border: none;
+    font-size: 64px;
+	color:#2A2A2A;
+	outline:0;
 }
 #promocoes .box-promocao {
 	background-color: #6E3EA4;
@@ -526,7 +527,7 @@ video {
 .box-produto-info a {
 	text-decoration: none;
 }
-.box-produto-info h3{
+.box-produto-info h3 {
 	font-size: 12px;
 	font-family: arial;
 	color: #666;
@@ -538,15 +539,15 @@ video {
 	font-size: 26px;
 	font-weight: bold;
 }
-.tittle-default-roxo h2{
+.title-default-roxo h2 {
 	color: #5E2799;
     font-family: 'OpenSans-Light';
     font-size: 48px;
     text-transform: uppercase;
     text-align: center;
 }
-.tittle-default-roxo hr{
-	border: #FDE192 solid: 8px;
-	width: 200px;
-	margin: 0 auto;
+.title-default-roxo hr {
+	border: #FDE192 solid 8px;
+    width: 200px;
+    margin: 0 auto;
 }
